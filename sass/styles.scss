@@ -1,0 +1,182 @@
+// Your custom settings file to override Foundation defaults
+@import "settings";
+
+// Comment out this import if you are customizing you imports below
+@import "foundation";
+
+// ----------------------------------------
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+// @import "compass/css3";
+// @import "foundation/settings";
+// @import "foundation/functions/all";
+
+// Control which mixins you have access too
+
+// @import "foundation/mixins/clearfix";
+// @import "foundation/mixins/css-triangle";
+// @import "foundation/mixins/font-size";
+
+// Must include next two for semantic grid to work
+
+// @import "foundation/mixins/respond-to";
+// @import "foundation/mixins/semantic-grid";
+
+// @import "modular-scale";
+// @import "foundation/common/globals";
+
+// Must include the grid for any responsiveness
+
+// @import "foundation/components/grid";
+
+// Control which common styles get compiled
+
+// @import "foundation/common/typography";
+// @import "foundation/common/forms";
+
+// Control which components you get if customizing
+
+// @import "foundation/components/modules/buttons";
+// @import "foundation/components/modules/tabs";
+// @import "foundation/components/modules/ui";
+// @import "foundation/components/modules/topbar";
+// @import "foundation/components/modules/navbar";
+// @import "foundation/components/modules/orbit";
+// @import "foundation/components/modules/reveal";
+// @import "foundation/components/modules/offcanvas";
+// @import "foundation/components/modules/clearing";
+// @import "foundation/components/modules/joyride";
+
+// Media Queries Overrides
+// @import "foundation/components/modules/mqueries";
+
+$black: #222222;
+$neongreen : #80fe5c;
+$neonred: #e74c2d;
+
+@mixin headlineFont() {
+	//font-family: share-regular, "Droid Serif", "American Typewriter", "Times New Roman", Times, serif;
+	font-family: "Exo", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
+
+}
+
+@mixin bodyFont() {
+	// font-family: gentium-book-basic, "Helvetica Nueu Condensed", "Helvetica Condensed", "Arial Narrow", Arial, Helvetica, sans-serif, sans;
+	font-family: "Exo", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
+
+}
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+
+html {
+	background: url('../images/audio-board.jpg') no-repeat fixed 50% 50% $black;
+	@include background-size(cover);
+}
+
+body {
+	@include bodyFont;
+	background: transparent none;
+}
+
+h1, h2, h3 {
+	@include headlineFont;
+}
+
+h4, h5, h6 {
+	@include bodyFont;
+}
+
+hgroup {
+	h1, h2, h3, h4, h5, h6 {
+		margin-top: 0;
+	}
+}
+
+#intro {
+	color: #FFF;
+	width: 750px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -375px;
+	margin-top: -200px;
+	padding: 30px;
+	background: rgba(0,0,0,0.62);
+	@include border-radius(12px);
+	@include box-shadow(0 0 120px rgba(255,255,255,0.15));
+	border: 2px solid $black;
+
+	.heading {
+		color: $neongreen;
+		font-size: 42px;
+		font-weight: normal; 
+		@include text-shadow(2px 2px 0px #000000);
+
+	}
+	.subheading {
+		font-size: 27px;
+		font-weight: 200;
+	}
+
+	@media screen and (max-width: 767px) {
+		width: 80%;
+		height: 80%;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-left: -40%;
+		margin-top: -40%;
+		overflow: scroll-y;
+
+	}
+}
+
+#overlay {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: url('../images/overlay.png') repeat scroll 0 0 $black;
+	@include opacity(0.38);
+}
+
+.circle-photo {
+	overflow: hidden;
+	width: 228px;
+	height: 228px;
+	@include border-radius(200em);
+	-webkit-background-clip: padding-box; background-clip: padding-box;
+	@include box-shadow(0px 0px 4px $black);
+	border: 2px solid $black;
+	margin: 0 30px 30px 0;
+	float: left;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	@media screen and (max-width: 767px) {
+		width: 150px;
+		height: 150px;
+		float: none;
+		margin: 15px auto;
+
+		img {
+			width: 170%;
+			max-width: 200%;
+			margin-left: -20px;
+		}
+	}
+}
+.subheading {
+	@include bodyFont;
+	color: lightgray;
+}
