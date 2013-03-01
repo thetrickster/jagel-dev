@@ -1,0 +1,3 @@
+[submodule "javascripts/libs/gas"]
+	path = javascripts/libs/gas
+	url = git@github.com:CardinalPath/gas.git

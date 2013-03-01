@@ -6039,40 +6039,47 @@ html, body {
 
 /* line 76, ../sass/styles.scss */
 html {
-  background: url("../images/audio-board.jpg") no-repeat fixed 50% 50% #222222;
+  background: url("../images/audio-board-3-sm.jpg") no-repeat fixed 50% 50% #222222;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 80, ../sass/styles.scss */
-html.theme-light {
-  background-image: url("../images/audio-board-white.jpg");
-  background-color: #FFF;
+@media screen and (min-width: 768px) {
+  /* line 76, ../sass/styles.scss */
+  html {
+    background-image: url("../images/audio-board-3-md.jpg");
+  }
+}
+@media screen and (min-width: 1025px) {
+  /* line 76, ../sass/styles.scss */
+  html {
+    background-image: url("../images/audio-board-3.jpg");
+  }
 }
 
-/* line 86, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 body {
   font-family: "Roboto", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
   background: transparent none;
 }
 
-/* line 91, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 h1, h2, h3 {
   font-family: "Roboto Condensed", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
 }
 
-/* line 95, ../sass/styles.scss */
+/* line 104, ../sass/styles.scss */
 h4, h5, h6 {
   font-family: "Roboto", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
 }
 
-/* line 100, ../sass/styles.scss */
+/* line 109, ../sass/styles.scss */
 hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   margin-top: 0;
 }
 
-/* line 105, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 #intro {
   color: #f7f7f7;
   width: 650px;
@@ -6094,20 +6101,20 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   box-shadow: 0 0 120px rgba(255, 255, 255, 0.15);
   border: 2px solid #222222;
 }
-/* line 120, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 #intro .heading {
   color: white;
   font-size: 48px;
   margin-bottom: .25em;
   text-shadow: 2px 2px 0px black;
 }
-/* line 132, ../sass/styles.scss */
+/* line 141, ../sass/styles.scss */
 #intro .subheading {
   font-size: 27px;
   font-weight: 200;
 }
 @media screen and (max-width: 767px) {
-  /* line 105, ../sass/styles.scss */
+  /* line 114, ../sass/styles.scss */
   #intro {
     width: 80%;
     height: auto;
@@ -6116,21 +6123,21 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
     top: auto;
     margin: 30px auto;
   }
-  /* line 145, ../sass/styles.scss */
+  /* line 154, ../sass/styles.scss */
   #intro .heading, #intro .subheading {
     text-align: center;
   }
-  /* line 148, ../sass/styles.scss */
+  /* line 157, ../sass/styles.scss */
   #intro .heading {
     font-size: 39px;
   }
-  /* line 151, ../sass/styles.scss */
+  /* line 160, ../sass/styles.scss */
   #intro .subheading {
     font-size: 19px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 105, ../sass/styles.scss */
+  /* line 114, ../sass/styles.scss */
   #intro {
     width: 90%;
     margin: 15px auto;
@@ -6138,7 +6145,7 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   }
 }
 
-/* line 164, ../sass/styles.scss */
+/* line 173, ../sass/styles.scss */
 #overlay {
   position: absolute;
   z-index: -1;
@@ -6151,7 +6158,7 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   opacity: 0.2;
 }
 
-/* line 175, ../sass/styles.scss */
+/* line 184, ../sass/styles.scss */
 .circle-photo {
   overflow: hidden;
   width: 200px;
@@ -6165,21 +6172,21 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   margin: 0 30px 30px 0;
   float: left;
 }
-/* line 186, ../sass/styles.scss */
+/* line 195, ../sass/styles.scss */
 .circle-photo img {
   width: 228px;
   height: 228px;
   max-width: 228px;
 }
 @media screen and (max-width: 767px) {
-  /* line 175, ../sass/styles.scss */
+  /* line 184, ../sass/styles.scss */
   .circle-photo {
     width: 150px;
     height: 150px;
     float: none;
     margin: 15px auto;
   }
-  /* line 198, ../sass/styles.scss */
+  /* line 207, ../sass/styles.scss */
   .circle-photo img {
     width: 170%;
     max-width: 200%;
@@ -6187,7 +6194,7 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   }
 }
 
-/* line 205, ../sass/styles.scss */
+/* line 214, ../sass/styles.scss */
 .subheading {
   color: lightgray;
 }

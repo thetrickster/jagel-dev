@@ -74,14 +74,23 @@ html, body {
 }
 
 html {
-	background: url('../images/audio-board.jpg') no-repeat fixed 50% 50% $black;
+	background: url('../images/audio-board-3-sm.jpg') no-repeat fixed 50% 50% $black;
 	@include background-size(cover);
 
-	&.theme-light {
-		background-image: url('../images/audio-board-white.jpg');
-		background-color: #FFF;
+	// &.theme-light {
+	// 	background-image: url('../images/audio-board-white.jpg');
+	// 	background-color: #FFF;
+	// }
+
+	@media screen and (min-width: 768px) {
+		background-image: url('../images/audio-board-3-md.jpg');
 	}
-}
+
+	@media screen and (min-width: 1025px) {
+		background-image: url('../images/audio-board-3.jpg');
+	}
+
+}	
 
 body {
 	@include bodyFont;
