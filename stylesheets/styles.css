@@ -6172,8 +6172,9 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
 }
 /* line 186, ../sass/styles.scss */
 .circle-photo img {
-  width: 100%;
-  height: auto;
+  width: 228px;
+  height: 228px;
+  max-width: 228px;
 }
 @media screen and (max-width: 767px) {
   /* line 175, ../sass/styles.scss */
@@ -6183,7 +6184,7 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
     float: none;
     margin: 15px auto;
   }
-  /* line 197, ../sass/styles.scss */
+  /* line 198, ../sass/styles.scss */
   .circle-photo img {
     width: 170%;
     max-width: 200%;
@@ -6191,7 +6192,7 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   }
 }
 
-/* line 204, ../sass/styles.scss */
+/* line 205, ../sass/styles.scss */
 .subheading {
   color: lightgray;
 }
