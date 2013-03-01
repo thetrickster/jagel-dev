@@ -6100,15 +6100,16 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   -moz-box-shadow: 0 0 120px rgba(255, 255, 255, 0.15);
   box-shadow: 0 0 120px rgba(255, 255, 255, 0.15);
   border: 2px solid #222222;
+  border: 2px solid rgba(34, 34, 34, 0.62);
 }
-/* line 129, ../sass/styles.scss */
+/* line 130, ../sass/styles.scss */
 #intro .heading {
-  color: white;
+  color: #f7f7f7;
   font-size: 48px;
   margin-bottom: .25em;
   text-shadow: 2px 2px 0px black;
 }
-/* line 141, ../sass/styles.scss */
+/* line 142, ../sass/styles.scss */
 #intro .subheading {
   font-size: 27px;
   font-weight: 200;
@@ -6123,15 +6124,15 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
     top: auto;
     margin: 30px auto;
   }
-  /* line 154, ../sass/styles.scss */
+  /* line 155, ../sass/styles.scss */
   #intro .heading, #intro .subheading {
     text-align: center;
   }
-  /* line 157, ../sass/styles.scss */
+  /* line 158, ../sass/styles.scss */
   #intro .heading {
     font-size: 39px;
   }
-  /* line 160, ../sass/styles.scss */
+  /* line 161, ../sass/styles.scss */
   #intro .subheading {
     font-size: 19px;
   }
@@ -6145,7 +6146,7 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   }
 }
 
-/* line 173, ../sass/styles.scss */
+/* line 174, ../sass/styles.scss */
 #overlay {
   position: absolute;
   z-index: -1;
@@ -6153,12 +6154,12 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   left: 0;
   bottom: 0;
   right: 0;
-  background: url("../images/overlay-2.png") repeat scroll 0 0 transparent;
+  background: url("../images/overlay-black.png") repeat scroll 0 0 transparent;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
   opacity: 0.2;
 }
 
-/* line 184, ../sass/styles.scss */
+/* line 185, ../sass/styles.scss */
 .circle-photo {
   overflow: hidden;
   width: 200px;
@@ -6172,21 +6173,21 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   margin: 0 30px 30px 0;
   float: left;
 }
-/* line 195, ../sass/styles.scss */
+/* line 196, ../sass/styles.scss */
 .circle-photo img {
   width: 228px;
   height: 228px;
   max-width: 228px;
 }
 @media screen and (max-width: 767px) {
-  /* line 184, ../sass/styles.scss */
+  /* line 185, ../sass/styles.scss */
   .circle-photo {
     width: 150px;
     height: 150px;
     float: none;
     margin: 15px auto;
   }
-  /* line 207, ../sass/styles.scss */
+  /* line 208, ../sass/styles.scss */
   .circle-photo img {
     width: 170%;
     max-width: 200%;
@@ -6194,7 +6195,7 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   }
 }
 
-/* line 214, ../sass/styles.scss */
+/* line 215, ../sass/styles.scss */
 .subheading {
   color: lightgray;
 }

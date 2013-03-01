@@ -125,9 +125,10 @@ hgroup {
 	@include border-radius(12px);
 	@include box-shadow(0 0 120px rgba(255,255,255,0.15));
 	border: 2px solid $black;
+	border: 2px solid rgba($black, 0.62);
 
 	.heading {
-		color: white;
+		color: $whitesmoke;
 		font-size: 48px;
 		margin-bottom: .25em;
 		// font-weight: normal; 
@@ -177,7 +178,7 @@ hgroup {
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background: url('../images/overlay-2.png') repeat scroll 0 0 transparent;
+	background: url('../images/overlay-black.png') repeat scroll 0 0 transparent;
 	@include opacity(0.2);
 }
 
