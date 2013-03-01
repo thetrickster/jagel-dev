@@ -78,7 +78,7 @@ html, body {
 }
 
 html {
-	background: url('../images/audio-board-3-sm.jpg') no-repeat fixed 50% 50% $black;
+	background: url('../images/audio-board-3.jpg') no-repeat fixed 50% 50% $black;
 	@include background-size(cover);
 
 	// &.theme-light {
