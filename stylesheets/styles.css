@@ -1432,10 +1432,11 @@ h4, h5, h6 { font-family: "Roboto", "Helvetica Neue", "HelveticaNeue", Arial, He
 
 hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 { margin-top: 0; }
 
-#intro { color: #f7f7f7; width: 650px; height: 350px; position: absolute; left: 50%; top: 50%; margin-left: -325px; margin-top: -175px; padding: 30px; background: rgba(17, 17, 17, 0.85); -webkit-border-radius: 12px; -moz-border-radius: 12px; -ms-border-radius: 12px; -o-border-radius: 12px; border-radius: 12px; -webkit-box-shadow: 0 0 120px rgba(255, 255, 255, 0.15); -moz-box-shadow: 0 0 120px rgba(255, 255, 255, 0.15); box-shadow: 0 0 120px rgba(255, 255, 255, 0.15); border: 2px solid #222222; border: 2px solid rgba(34, 34, 34, 0.62); }
+#intro { color: #f7f7f7; width: 650px; height: 350px; position: absolute; left: 50%; top: 50%; margin-left: -325px; margin-top: -175px; padding: 30px; background: rgba(17, 17, 17, 0.85); -webkit-border-radius: 12px; -moz-border-radius: 12px; -ms-border-radius: 12px; -o-border-radius: 12px; border-radius: 12px; -webkit-box-shadow: 0 0 120px rgba(255, 255, 255, 0.15); -moz-box-shadow: 0 0 120px rgba(255, 255, 255, 0.15); box-shadow: 0 0 120px rgba(255, 255, 255, 0.15); border: 2px solid #222222; border: 2px solid rgba(34, 34, 34, 0.62); -webkit-transition: top 1s ease-in-out; -moz-transition: top 1s ease-in-out; -o-transition: top 1s ease-in-out; transition: top 1s ease-in-out; }
 #intro .heading { color: #f7f7f7; font-size: 48px; margin-bottom: .25em; text-shadow: 2px 2px 0px black; }
 #intro .subheading { font-size: 27px; font-weight: 200; }
 #intro .button-group { clear: left; margin-top: 40px; }
+@media screen and (min-width: 768px) and (max-width: 1023px) { #intro { top: 25%; } }
 @media screen and (max-width: 767px) { #intro { width: 80%; height: auto; position: static; left: auto; top: auto; margin: 15px auto; padding: 15px; }
   #intro .heading, #intro .subheading { text-align: center; }
   #intro .heading { font-size: 39px; }

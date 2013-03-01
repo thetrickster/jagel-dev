@@ -135,6 +135,8 @@ hgroup {
 	border: 2px solid $black;
 	border: 2px solid rgba($black, 0.62);
 
+	@include transition(top 1s ease-in-out);
+
 	.heading {
 		color: $whitesmoke;
 		font-size: 48px;
@@ -155,6 +157,11 @@ hgroup {
 	.button-group {
 		clear: left;
 		margin-top: 40px;
+	}
+
+
+	@media screen and (min-width: 768px) and (max-width: 1023px) {
+		top: 25%;
 	}
 
 	@media screen and (max-width: 767px) {
