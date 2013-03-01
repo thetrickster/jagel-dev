@@ -54,16 +54,17 @@
 $black: #222222;
 $neongreen : #80fe5c;
 $neonred: #e74c2d;
+$whitesmoke: #F7F7F7;
 
 @mixin headlineFont() {
 	//font-family: share-regular, "Droid Serif", "American Typewriter", "Times New Roman", Times, serif;
-	font-family: "Exo", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
+	font-family: "Roboto Condensed", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
 
 }
 
 @mixin bodyFont() {
 	// font-family: gentium-book-basic, "Helvetica Nueu Condensed", "Helvetica Condensed", "Arial Narrow", Arial, Helvetica, sans-serif, sans;
-	font-family: "Exo", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
+	font-family: "Roboto", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
 
 }
 
@@ -75,6 +76,11 @@ html, body {
 html {
 	background: url('../images/audio-board.jpg') no-repeat fixed 50% 50% $black;
 	@include background-size(cover);
+
+	&.theme-light {
+		background-image: url('../images/audio-board-white.jpg');
+		background-color: #FFF;
+	}
 }
 
 body {
@@ -97,7 +103,7 @@ hgroup {
 }
 
 #intro {
-	color: #FFF;
+	color: $whitesmoke;
 	width: 750px;
 	height: 400px;
 	position: absolute;
@@ -112,10 +118,15 @@ hgroup {
 	border: 2px solid $black;
 
 	.heading {
-		color: $neongreen;
+		color: white;
 		font-size: 42px;
-		font-weight: normal; 
+		margin-bottom: .25em;
+		// font-weight: normal; 
 		@include text-shadow(2px 2px 0px #000000);
+
+		span {
+			// text-transform: uppercase;
+		}
 
 	}
 	.subheading {
@@ -125,14 +136,24 @@ hgroup {
 
 	@media screen and (max-width: 767px) {
 		width: 80%;
-		height: 80%;
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		margin-left: -40%;
-		margin-top: -40%;
-		overflow: scroll-y;
+		height: auto;
+		position: static;
+		left: auto;
+		top: auto;
+		margin: 30px auto;
 
+		.heading, .subheading {
+			text-align: center;
+		}
+		.subheading {
+			font-size: 19px;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+		width: 90%;
+		margin: 15px auto;
 	}
 }
 
@@ -143,14 +164,14 @@ hgroup {
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background: url('../images/overlay.png') repeat scroll 0 0 $black;
+	background: url('../images/overlay-2.png') repeat scroll 0 0 transparent;
 	@include opacity(0.38);
 }
 
 .circle-photo {
 	overflow: hidden;
-	width: 228px;
-	height: 228px;
+	width: 200px;
+	height: 200px;
 	@include border-radius(200em);
 	-webkit-background-clip: padding-box; background-clip: padding-box;
 	@include box-shadow(0px 0px 4px $black);
@@ -177,6 +198,5 @@ hgroup {
 	}
 }
 .subheading {
-	@include bodyFont;
 	color: lightgray;
 }

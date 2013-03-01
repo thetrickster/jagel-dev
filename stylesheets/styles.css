@@ -6031,13 +6031,13 @@ table.hide-for-medium {
     margin: 0;
   }
 }
-/* line 70, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 html, body {
   height: 100%;
   min-height: 100%;
 }
 
-/* line 75, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 html {
   background: url("../images/audio-board.jpg") no-repeat fixed 50% 50% #222222;
   -webkit-background-size: cover;
@@ -6045,31 +6045,36 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-
 /* line 80, ../sass/styles.scss */
+html.theme-light {
+  background-image: url("../images/audio-board-white.jpg");
+  background-color: #FFF;
+}
+
+/* line 86, ../sass/styles.scss */
 body {
-  font-family: "Exo", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
+  font-family: "Roboto", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
   background: transparent none;
 }
 
-/* line 85, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 h1, h2, h3 {
-  font-family: "Exo", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
+  font-family: "Roboto Condensed", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
 }
 
-/* line 89, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 h4, h5, h6 {
-  font-family: "Exo", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
+  font-family: "Roboto", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
 }
 
-/* line 94, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   margin-top: 0;
 }
 
-/* line 99, ../sass/styles.scss */
+/* line 105, ../sass/styles.scss */
 #intro {
-  color: #FFF;
+  color: #f7f7f7;
   width: 750px;
   height: 400px;
   position: absolute;
@@ -6089,33 +6094,46 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   box-shadow: 0 0 120px rgba(255, 255, 255, 0.15);
   border: 2px solid #222222;
 }
-/* line 114, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 #intro .heading {
-  color: #80fe5c;
+  color: white;
   font-size: 42px;
-  font-weight: normal;
+  margin-bottom: .25em;
   text-shadow: 2px 2px 0px black;
 }
-/* line 121, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 #intro .subheading {
   font-size: 27px;
   font-weight: 200;
 }
 @media screen and (max-width: 767px) {
-  /* line 99, ../sass/styles.scss */
+  /* line 105, ../sass/styles.scss */
   #intro {
     width: 80%;
-    height: 80%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -40%;
-    margin-top: -40%;
-    overflow: scroll-y;
+    height: auto;
+    position: static;
+    left: auto;
+    top: auto;
+    margin: 30px auto;
+  }
+  /* line 145, ../sass/styles.scss */
+  #intro .heading, #intro .subheading {
+    text-align: center;
+  }
+  /* line 148, ../sass/styles.scss */
+  #intro .subheading {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 105, ../sass/styles.scss */
+  #intro {
+    width: 90%;
+    margin: 15px auto;
   }
 }
 
-/* line 139, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 #overlay {
   position: absolute;
   z-index: -1;
@@ -6123,16 +6141,16 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   left: 0;
   bottom: 0;
   right: 0;
-  background: url("../images/overlay.png") repeat scroll 0 0 #222222;
+  background: url("../images/overlay-2.png") repeat scroll 0 0 transparent;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=38);
   opacity: 0.38;
 }
 
-/* line 150, ../sass/styles.scss */
+/* line 171, ../sass/styles.scss */
 .circle-photo {
   overflow: hidden;
-  width: 228px;
-  height: 228px;
+  width: 200px;
+  height: 200px;
   -webkit-border-radius: 200em;
   -moz-border-radius: 200em;
   -ms-border-radius: 200em;
@@ -6147,20 +6165,20 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   margin: 0 30px 30px 0;
   float: left;
 }
-/* line 161, ../sass/styles.scss */
+/* line 182, ../sass/styles.scss */
 .circle-photo img {
   width: 100%;
   height: auto;
 }
 @media screen and (max-width: 767px) {
-  /* line 150, ../sass/styles.scss */
+  /* line 171, ../sass/styles.scss */
   .circle-photo {
     width: 150px;
     height: 150px;
     float: none;
     margin: 15px auto;
   }
-  /* line 172, ../sass/styles.scss */
+  /* line 193, ../sass/styles.scss */
   .circle-photo img {
     width: 170%;
     max-width: 200%;
@@ -6168,8 +6186,7 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   }
 }
 
-/* line 179, ../sass/styles.scss */
+/* line 200, ../sass/styles.scss */
 .subheading {
-  font-family: "Exo", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
   color: lightgray;
 }
