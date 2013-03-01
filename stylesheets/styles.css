@@ -6075,12 +6075,12 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
 /* line 105, ../sass/styles.scss */
 #intro {
   color: #f7f7f7;
-  width: 750px;
+  width: 650px;
   height: 400px;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -375px;
+  margin-left: -325px;
   margin-top: -200px;
   padding: 30px;
   background: rgba(17, 17, 17, 0.62);
