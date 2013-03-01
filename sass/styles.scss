@@ -119,7 +119,7 @@ hgroup {
 
 	.heading {
 		color: white;
-		font-size: 42px;
+		font-size: 48px;
 		margin-bottom: .25em;
 		// font-weight: normal; 
 		@include text-shadow(2px 2px 0px #000000);
@@ -145,6 +145,9 @@ hgroup {
 		.heading, .subheading {
 			text-align: center;
 		}
+		.heading {
+			font-size: 39px;
+		}
 		.subheading {
 			font-size: 19px;
 		}
@@ -154,6 +157,7 @@ hgroup {
 	@media screen and (max-width: 480px) {
 		width: 90%;
 		margin: 15px auto;
+		padding: 15px;
 	}
 }
 
