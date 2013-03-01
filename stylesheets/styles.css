@@ -6142,8 +6142,8 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
   bottom: 0;
   right: 0;
   background: url("../images/overlay-2.png") repeat scroll 0 0 transparent;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=38);
-  opacity: 0.38;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+  opacity: 0.2;
 }
 
 /* line 171, ../sass/styles.scss */
