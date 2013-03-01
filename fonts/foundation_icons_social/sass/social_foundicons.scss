@@ -1,7 +1,7 @@
 @import "settings";
 
 /* font-face */
-@include face;
+@include face; 
 
 /* global foundicon styles */
 [class*="#{$classPrefix}"] {

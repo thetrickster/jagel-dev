@@ -1,6 +1,13 @@
 // Your custom settings file to override Foundation defaults
 @import "settings";
 
+$black: #222222;
+$neongreen : #80fe5c;
+$neonred: #e74c2d;
+$whitesmoke: #F7F7F7;
+$green: #50841A;
+$mainColor: $green;
+
 // Comment out this import if you are customizing you imports below
 @import "foundation";
 
@@ -51,10 +58,7 @@
 // Media Queries Overrides
 // @import "foundation/components/modules/mqueries";
 
-$black: #222222;
-$neongreen : #80fe5c;
-$neonred: #e74c2d;
-$whitesmoke: #F7F7F7;
+@import "fonts";
 
 @mixin headlineFont() {
 	//font-family: share-regular, "Droid Serif", "American Typewriter", "Times New Roman", Times, serif;
@@ -114,12 +118,12 @@ hgroup {
 #intro {
 	color: $whitesmoke;
 	width: 650px;
-	height: 400px;
+	height: 350px;
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	margin-left: -325px;
-	margin-top: -200px;
+	margin-top: -175px;
 	padding: 30px;
 	background: rgba(#111111, 0.62);
 	@include border-radius(12px);
@@ -142,6 +146,11 @@ hgroup {
 	.subheading {
 		font-size: 27px;
 		font-weight: 200;
+	}
+
+	.button-group {
+		clear: left;
+		margin-top: 40px;
 	}
 
 	@media screen and (max-width: 767px) {
@@ -168,7 +177,26 @@ hgroup {
 		width: 90%;
 		margin: 15px auto;
 		padding: 15px;
+
 	}
+
+	@media screen and (min-width: 480px) {
+		.button {
+			.hide-for-small {
+				display: inline !important;
+			}
+		}
+	}
+	@media screen and (max-width: 320px) {
+		.button {
+			font-size: 24px;
+
+			.icon {
+				margin: 0;
+			}
+		}
+	}
+
 }
 
 #overlay {
@@ -182,8 +210,15 @@ hgroup {
 	@include opacity(0.2);
 }
 
+.button {
+	.icon {
+		vertical-align: text-bottom;
+		margin-right: .5em;
+	}
+}
+
 .circle-photo {
-	overflow: hidden;
+	overflow: hidden; 
 	width: 200px;
 	height: 200px;
 	// @include border-radius(200em);
