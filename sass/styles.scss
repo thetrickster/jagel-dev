@@ -163,7 +163,8 @@ hgroup {
 		position: static;
 		left: auto;
 		top: auto;
-		margin: 30px auto;
+		margin: 15px auto;
+		padding: 15px;
 
 		.heading, .subheading {
 			text-align: center;
@@ -179,8 +180,6 @@ hgroup {
 
 	@media screen and (max-width: 480px) {
 		width: 90%;
-		margin: 15px auto;
-		padding: 15px;
 
 	}
 

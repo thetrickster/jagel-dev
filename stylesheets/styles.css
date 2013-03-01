@@ -1436,11 +1436,11 @@ hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 { margin-top: 0
 #intro .heading { color: #f7f7f7; font-size: 48px; margin-bottom: .25em; text-shadow: 2px 2px 0px black; }
 #intro .subheading { font-size: 27px; font-weight: 200; }
 #intro .button-group { clear: left; margin-top: 40px; }
-@media screen and (max-width: 767px) { #intro { width: 80%; height: auto; position: static; left: auto; top: auto; margin: 30px auto; }
+@media screen and (max-width: 767px) { #intro { width: 80%; height: auto; position: static; left: auto; top: auto; margin: 15px auto; padding: 15px; }
   #intro .heading, #intro .subheading { text-align: center; }
   #intro .heading { font-size: 39px; }
   #intro .subheading { font-size: 19px; } }
-@media screen and (max-width: 480px) { #intro { width: 90%; margin: 15px auto; padding: 15px; } }
+@media screen and (max-width: 480px) { #intro { width: 90%; } }
 @media screen and (min-width: 480px) { #intro .button .hide-for-small { display: inline !important; } }
 @media screen and (max-width: 320px) { #intro .button { font-size: 24px; }
   #intro .button .icon { margin: 0; } }
