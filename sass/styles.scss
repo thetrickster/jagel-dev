@@ -215,6 +215,20 @@ hgroup {
 }
 
 .button {
+	background: $black;
+	border-color: darken($black, 15%);
+	&:hover {
+		background: lighten($black, 10%);
+	}
+
+	&.email {
+		background: lighten($black, 10%);
+		border-color: darken($black, 15%);
+		&:hover {
+			background: lighten($black, 20%);
+		}
+
+	}
 	.icon {
 		vertical-align: text-bottom;
 		margin-right: .5em;
