@@ -2,11 +2,11 @@
 @import "settings";
 
 $black: #222222;
-$neongreen : #80fe5c;
+$neongreen : #98FC83;
 $neonred: #e74c2d;
 $whitesmoke: #F7F7F7;
 $green: #50841A;
-$mainColor: $green;
+$mainColor: $neongreen;
 
 // Comment out this import if you are customizing you imports below
 @import "foundation";
@@ -125,12 +125,12 @@ hgroup {
 #intro {
 	color: $whitesmoke;
 	width: 650px;
-	height: 350px;
+	height: 430px;
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	margin-left: -325px;  
-	margin-top: -175px;
+	margin-top: -215px;
 	padding: 30px;
 	background: rgba(#111111, 0.85);
 	@include border-radius(12px);
@@ -146,7 +146,7 @@ hgroup {
 	}
 
 	.heading {
-		color: $whitesmoke;
+		color: $neongreen;
 		font-size: 48px;
 		margin-bottom: .25em;
 		// font-weight: normal; 
@@ -257,7 +257,7 @@ hgroup {
 	-webkit-background-clip: padding-box; background-clip: padding-box;
 	@include box-shadow(0px 0px 4px $black);
 	border: 2px solid $black;
-	margin: 0 30px 30px 0;
+	margin: 0 30px 15px 0;
 	float: left;
 
 	img {
