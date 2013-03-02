@@ -103,6 +103,7 @@ html {
 body {
 	@include bodyFont;
 	background: transparent none;
+	position: static; 
 
 }
 

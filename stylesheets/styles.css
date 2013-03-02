@@ -1424,7 +1424,7 @@ html { background: url("../images/audio-board-3.jpg") no-repeat fixed 50% 50% #2
 @media screen and (min-width: 768px) { html { background-image: url("../images/audio-board-3-md.jpg"); } }
 @media screen and (min-width: 1025px) { html { background-image: url("../images/audio-board-3.jpg"); } }
 
-body { font-family: "Roboto", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans; background: transparent none; }
+body { font-family: "Roboto", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans; background: transparent none; position: static; }
 
 h1, h2, h3 { font-family: "Roboto Condensed", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans; }
 
