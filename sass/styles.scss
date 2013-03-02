@@ -120,6 +120,7 @@ hgroup {
 	}
 }
 
+
 #intro {
 	color: $whitesmoke;
 	width: 650px;
@@ -137,6 +138,11 @@ hgroup {
 	border: 2px solid rgba($black, 0.62);
 
 	@include transition(top 1s ease-in-out);
+
+	.csstransitions &.init {
+		top: -100%;
+
+	}
 
 	.heading {
 		color: $whitesmoke;

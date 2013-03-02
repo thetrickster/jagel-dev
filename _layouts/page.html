@@ -17,11 +17,11 @@
       <link rel="stylesheet" href="fonts/general_foundicons_ie7.css"/>
       <link rel="stylesheet" href="fonts/social_foundicons_ie7.css"/>
     <![endif]-->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/3.2.5/javascripts/foundation.min.js"></script>
+    <script src="/javascripts/foundation.min.ours.js"></script>
   </head>
   <body>
     <div id=overlay></div>
-    <section id=intro>
+    <section id=intro class="init">
       <header>
         <figure class="circle-photo">
           <img src="images/jay-photo.jpg" alt="Jason Agel - Mix Engineer, Audio Engineer" />
@@ -37,7 +37,6 @@
     
     </section>
     
-    <script src="javascripts/app.js?v={{ site.cacheVersion }}"></script>
     <script type="text/javascript">
       var _gas = _gas || [];
       _gas.push(['_setAccount', 'UA-38939605-1']);
@@ -56,6 +55,7 @@
       s.parentNode.insertBefore(ga, s);
       })();
     </script>   
+    <script src="javascripts/app.js?v={{ site.cacheVersion }}"></script>
 
   </body>
 </html>
