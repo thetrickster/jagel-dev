@@ -1,3 +1,4 @@
 .sass-cache/
 MIT-LICENSE.txt
-Procfile # Used to run jekyll and compass locally with foreman
+Procfile 
+# Used to run jekyll and compass locally with foreman
