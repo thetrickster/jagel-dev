@@ -2,7 +2,8 @@
 @import "settings";
 
 $black: #222222;
-$neongreen : #98FC83;
+$neongreen: #98FC83;
+$neongreen: lighten($neongreen, 5%);
 $neonred: #e74c2d;
 $whitesmoke: #F7F7F7;
 $green: #50841A;
