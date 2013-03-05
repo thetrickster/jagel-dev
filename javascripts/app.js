@@ -20,7 +20,7 @@
     $.fn.placeholder                ? $('input, textarea').placeholder() : null;
 
     // Drop in the content window on page load for csstransition supporting browsers
-    $("#intro").removeClass("init");
+    $(".csstransitions #intro").removeClass("init");
 
   });
 

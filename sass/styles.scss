@@ -72,10 +72,10 @@ $mainColor: $neongreen;
 	font-family: "Roboto", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
 
 }
-
+ 
 html, body {
 	height: 100%;
-	min-height: 100%;
+	min-height: 100%; 
 }
 
 html {
@@ -133,6 +133,7 @@ hgroup {
 	margin-left: -325px;  
 	margin-top: -215px;
 	padding: 30px;
+	background: #111111;
 	background: rgba(#111111, 0.85);
 	@include border-radius(12px);
 	@include box-shadow(0 0 120px rgba(255,255,255,0.15));
