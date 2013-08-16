@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 // Your custom settings file to override Foundation defaults
 @import "settings";
 
@@ -72,6 +74,41 @@ $mainColor: $neongreen;
 	font-family: "Roboto", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans;
 
 }
+
+// keyframes mixin
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content; 
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  } 
+}
+ 
+
+@mixin drop-down-animation() {
+	// use of keyframes mixin
+	@include keyframes(dropdown) {
+	  0% {
+	  	margin-top: 50px;
+	  	//@include translate(0,20%);
+	  	// @include scale(0.5);
+	  }
+	  // 50% {
+	  //   background-color: $bgcolor;
+	  // }
+	  100% {
+	  	// @include translate(0,0);
+	  	margin-top: 0;
+	  } 
+	}
+}
  
 html, body {
 	height: 100%;
@@ -103,8 +140,10 @@ html {
 
 body {
 	@include bodyFont;
-	background: transparent none;
-	position: static; 
+	background: url('../images/overlay-black-2.png') repeat fixed 0 0 transparent;
+	padding: 20px;
+	height: auto;
+	max-height: inherit;
 
 }
 
@@ -122,16 +161,33 @@ hgroup {
 	}
 }
 
+hr {
+	border-color: $black;
+}
+@include drop-down-animation;
+
+.heading {
+	font-size: 48px;
+	color: $neongreen;
+	margin-bottom: .25em;
+	@include text-shadow(2px 2px 0px #000000);
+
+	span {
+		// text-transform: uppercase;
+	}
+
+}
 
 #intro {
 	color: $whitesmoke;
-	width: 650px;
-	height: 430px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-left: -325px;  
-	margin-top: -215px;
+	max-width: 650px;
+	margin: 0 auto;
+	// height: 430px;
+	// position: absolute;
+	// left: 50%;
+	// top: 50%;
+	// margin-left: -325px;  
+	// margin-top: -215px;
 	padding: 30px;
 	background: #111111;
 	background: rgba(#111111, 0.85);
@@ -139,30 +195,22 @@ hgroup {
 	@include box-shadow(0 0 120px rgba(255,255,255,0.15));
 	border: 2px solid $black;
 	border: 2px solid rgba($black, 0.62);
+	// @include transition(all 1s ease-in-out);
 
-	@include transition(top 1s ease-in-out);
+	-webkit-animation: dropdown 1s ease-in;
+	-moz-animation: dropdown 1s ease-in;
+	-ms-animation: drop 1s ease-in;
+	animation: dropdown 1s ease-in;
 
 	.csstransitions &.init {
-		top: -100%;
 
 	}
 
 	.heading {
-		color: $neongreen;
-		font-size: 48px;
-		margin-bottom: .25em;
 		// font-weight: normal; 
-		@include text-shadow(2px 2px 0px #000000);
-
-		span {
-			// text-transform: uppercase;
-		}
 
 	}
-	.subheading {
-		font-size: 27px;
-		font-weight: 200;
-	}
+
 
 	.button-group {
 		clear: left;
@@ -171,32 +219,18 @@ hgroup {
 
 
 	@media screen and (max-width: 768px) {
-		top: 25%;
+
 	}
 
 	@media screen and (max-width: 767px) {
-		width: 80%;
-		height: auto;
-		position: static;
-		left: auto;
-		top: auto;
-		margin: 15px auto;
+		// width: 80%;
 		padding: 15px;
 
-		.heading, .subheading {
-			text-align: center;
-		}
-		.heading {
-			font-size: 39px;
-		}
-		.subheading {
-			font-size: 19px;
-		}
 
 	}
 
 	@media screen and (max-width: 480px) {
-		width: 90%;
+		// width: 90%;
 
 	}
 
@@ -218,17 +252,34 @@ hgroup {
 	}
 
 }
+.item {
 
-#overlay {
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	background: url('../images/overlay-black.png') repeat scroll 0 0 transparent;
-	@include opacity(0.2);
+	.heading {
+		font-size: 130%;
+		margin-bottom: 1em;
+		line-height: 1.5;
+		border-left: 1px solid $mainColor;
+		padding-left: 10px;
+	}
+
+	@media screen and (max-width: 767px) {
+		.heading { font-size: initial; }
+
+	}	
+
+
 }
+
+// #overlay {
+// 	position: absolute;
+// 	z-index: -1;
+// 	top: 0;
+// 	left: 0;
+// 	bottom: 0;
+// 	right: 0;
+// 	background: url('../images/overlay-black.png') repeat scroll 0 0 transparent;
+// 	@include opacity(0.2);
+// }
 
 .button {
 	background: $black;
@@ -283,4 +334,28 @@ hgroup {
 }
 .subheading {
 	color: lightgray;
+	font-weight: normal;
+	font-size: 170%;
+
+	header hgroup & {
+		font-size: 27px;
+
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	body {
+	}
+	header .heading, header .subheading {
+		text-align: center;
+	}
+	header .heading {
+		font-size: 39px;
+	}
+	header .subheading {
+		font-size: 19px;
+	}
+
 }
