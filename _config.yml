@@ -1,6 +1,11 @@
 name: "Jason Agel"
 cacheVersion: "0017"
 
+baseurl: /
+permalink: pretty
+markdown: rdiscount
+relative_permalinks: true
+permalink:   /:categories/:title/
 source:      .
 destination: ./_site
 layouts:     ./_layouts
@@ -11,16 +16,14 @@ timezone:    nil
 encoding:    nil
 
 future:      true
-show_drafts: nil
+show_drafts: true
 limit_posts: 20
 pygments:    true
 
 prose:
   rooturl: '_posts'
-  baseurl: /
-  permalink: pretty
-  markdown: rdiscount
-  relativeLinks: 'links.jsonp'
+  siteurl: '/'
+  relativeLinks: '/links.jsonp'
   media: 'media'
   metadata:
     _posts:

@@ -36,6 +36,7 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     rake (10.1.0)
+    rdiscount (2.1.6)
     redcarpet (2.3.0)
     safe_yaml (0.7.1)
     sass (3.2.11)
@@ -53,4 +54,5 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  rdiscount
   zurb-foundation (~> 3.2.5)
