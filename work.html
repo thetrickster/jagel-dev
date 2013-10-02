@@ -6,6 +6,15 @@ permalink: /work/
 {% for item in site.categories.work limit:1000 %}
 	{% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
 	{% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+	{% if item.splash %}
+	  {% if item.splash contains 'http' %}
+	    {% capture url %}{{item.splash}}{% endcapture %}
+	  {% else %}
+	    {% capture url %}{{item.baseurl}}{{item.splash}}{% endcapture %}
+	  {% endif %}
+
+	    <img src='{{url}}' alt='' />
+	{% endif %}
 
 	{% if date != ndate %}
 	<h4 class='month'>{{item.date | date: '%B %Y'}}</h4>

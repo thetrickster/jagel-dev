@@ -4,6 +4,7 @@ category: work
 published: true
 title: Made To Love
 splash: "http://placehold.it/1600x500"
+permalink: /work/made-to-love/
 ---
 
 ![](/media/600.jpg)
