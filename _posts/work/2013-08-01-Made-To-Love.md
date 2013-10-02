@@ -3,7 +3,7 @@ layout: work
 category: work
 published: true
 title: Made To Love
-permalink: /work/made-to-love/
+permalink: work/made-to-love/
 ---
 
 Testing
