@@ -2,7 +2,7 @@
 layout: page
 published: true
 title: Testimonials
-permalink: "[object Object]"
+permalink: ""
 ---
 
 ## A New Post!
