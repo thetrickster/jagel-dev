@@ -2,9 +2,9 @@
 layout: blog
 category: blog
 published: true
-title: Untitled
+title: My Filename
 ---
 
-## A New Post
+## {{ page.title }}
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
