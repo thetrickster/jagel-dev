@@ -1,7 +1,7 @@
 ---
 layout: work
 category: work
-published: false
+published: true
 title: Made To Love
 ---
 
