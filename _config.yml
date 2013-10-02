@@ -81,7 +81,7 @@ prose:
               value: "apples"
             - name: "Bananas"
               value: "bananas"
-    _posts/static:
+    _posts/pages:
       - name: "layout"
         field:
           element: "hidden"
