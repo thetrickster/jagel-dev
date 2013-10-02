@@ -22,8 +22,8 @@ pygments:    true
 
 prose:
   rooturl: '_posts'
-  siteurl: '/'
-  relativeLinks: '/links.jsonp'
+  siteurl: 'http://jasonagel.chrismatthias.com/'
+  relativeLinks: 'http://jasonagel.chrismatthias.com/links.jsonp'
   media: 'media'
   metadata:
     _posts:
