@@ -1,3 +1,3 @@
-Run locally using Jekyll:
+Run locally using Jekyll & Foreman:
 
-$ <code>jekyll --pygments --no-lsi --safe --server</code>
+<code>$ foreman start</code>

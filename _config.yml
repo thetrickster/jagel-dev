@@ -1,7 +1,19 @@
-exclude: CNAME, Gemfile, Gemfile.lock, Procfile, config.rb, _config.yml, README.md
-
 name: "Jason Agel"
 cacheVersion: "0017"
+
+source:      .
+destination: ./_site
+layouts:     ./_layouts
+include:     []
+exclude:     ['.bundle', 'sass', 'CNAME', 'Gemfile', 'Gemfile.lock', 'Procfile', 'config.rb', '_config.yml', 'README.md']
+keep_files:  ['.git']
+timezone:    nil
+encoding:    nil
+
+future:      true
+show_drafts: nil
+limit_posts: 20
+pygments:    true
 
 prose:
   rooturl: '_posts'
