@@ -21,7 +21,7 @@ limit_posts: 20
 pygments:    true
 
 analytics:
-  google:
+  - google:
     id: "UA-XXXXXXX-1"
 
 prose:
@@ -102,4 +102,4 @@ prose:
         field:
           element: "text"
           label: "Permalink"
-          value: ""
+          value: {{ page.url }}
