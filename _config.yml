@@ -102,4 +102,4 @@ prose:
         field:
           element: "text"
           label: "Permalink"
-          value: {{ page.url }}
+          value: {{ page.permalink }}
