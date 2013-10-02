@@ -1,7 +1,7 @@
 name: "Jason Agel"
 cacheVersion: "0017"
 
-baseurl: /
+baseurl: "http://jasonagel.chrismatthias.com"
 permalink: pretty
 markdown: rdiscount
 relative_permalinks: true
@@ -19,6 +19,10 @@ future:      true
 show_drafts: true
 limit_posts: 20
 pygments:    true
+
+analytics:
+  google:
+    id: "UA-XXXXXXX-1"
 
 prose:
   rooturl: '_posts'
