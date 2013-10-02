@@ -84,10 +84,12 @@ prose:
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
+            - name: "Recording"
+              value: "recording"
+            - name: "Mixing"
+              value: "mixing"
+            - name: "Production"
+              value: "production"
     _posts/pages:
       - name: "layout"
         field:
@@ -102,4 +104,4 @@ prose:
         field:
           element: "text"
           label: "Permalink"
-          value: {{ page.permalink }}
+          value: "/:categories/:title/"
