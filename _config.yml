@@ -104,4 +104,4 @@ prose:
         field:
           element: "text"
           label: "Permalink"
-          value: "/:categories/:title/"
+          value: ""
