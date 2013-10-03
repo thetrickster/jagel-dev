@@ -117,11 +117,6 @@ prose:
           element: "text"
           label: "Artist"
           value: ""
-      - name: "featured"
-        field:
-          element: "checkbox"
-          label: "Featured"
-          value: false
       - name: "category"
         field:
           element: "hidden"
@@ -152,6 +147,11 @@ prose:
               value: "mixing"
             - name: "Production"
               value: "production"
+      - name: "featured"
+        field:
+          element: "checkbox"
+          label: "Featured"
+          value: false
     _posts/pages:
       - name: "layout"
         field:
