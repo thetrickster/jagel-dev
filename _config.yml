@@ -121,6 +121,18 @@ prose:
           element: "text"
           label: "Album Name"
           value: ""
+      - name: "soundcloudwidget"
+        field:
+          element: "textarea"
+          label: "Soundcloud Embed URL"
+          value: ""
+          placeholder: "The URL in the wordpress shortcode option"
+      - name: "mp3file"
+        field:
+          element: "text"
+          label: "URL to mp3 file"
+          value: ""
+          placeholder: "Drag and drop MP3 file into post. Paste URL here."
       - name: "category"
         field:
           element: "hidden"
