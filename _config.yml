@@ -153,7 +153,6 @@ prose:
           label: "Featured"
           on: "Yes"
           off: "No"
-          value: false
     _posts/pages:
       - name: "layout"
         field:
