@@ -149,7 +149,7 @@ prose:
               value: "production"
       - name: "featured"
         field:
-          element: "checkbox"
+          element: "button"
           label: "Featured"
           value: false
     _posts/pages:
