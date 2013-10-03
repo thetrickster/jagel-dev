@@ -2,7 +2,7 @@
 layout: work
 category: work
 published: false
-title: ""
+title: New Project
 featured: false
 ---
 
