@@ -1,8 +1,8 @@
 ---
 layout: page
 published: true
-title: Untitled
-permalink: "[object Object]"
+title: Testimonials
+permalink: ""
 ---
 
 ## A New Post!
