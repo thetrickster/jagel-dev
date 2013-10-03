@@ -1,9 +1,10 @@
 ---
 layout: blog
 category: blog
-published: false
+published: true
 splash: "http://placehold.it/1600x500"
 title: "Hello, Kittens!"
+publish: false
 ---
 
 ![400.jpg](/media/400.jpg)
