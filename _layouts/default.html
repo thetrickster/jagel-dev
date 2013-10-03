@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> 
+<!--<![endif]-->
 
   <head>
     <meta charset="utf-8" />
@@ -45,6 +46,13 @@
       })();
     </script>   
     <script src="{{site.baseurl}}/javascripts/app.js?v={{ site.cacheVersion }}"></script>
+    <script>
+      (function($){
+        {% if page.splash %}
+          $.backstretch("{{ page.splash }}");
+        {% endif %}
+      })(jQuery);
+    </script>
 
   </body>
 </html>
