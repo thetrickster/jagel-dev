@@ -8,7 +8,7 @@ tags:
   - recording
 artist: John Legend
 featured: false
-permalink: ""
+permalink: "/made-to-love/"
 soundcloudwidget: null
 ---
 
