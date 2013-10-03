@@ -115,7 +115,12 @@ prose:
       - name: "artist"
         field:
           element: "text"
-          label: "Artist"
+          label: "Artist Name"
+          value: ""
+      - name: "album"
+        field:
+          element: "text"
+          label: "Album Name"
           value: ""
       - name: "category"
         field:
@@ -130,16 +135,21 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
       - name: "splash"
         field:
           element: "text"
           label: "Splash image"
           value: ""
-      - name: "tags"
+      - name: "Contributions"
         field:
           element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
+          label: "Your Contributions"
+          placeholder: "Choose Contributions"
           options:
             - name: "Recording"
               value: "recording"
@@ -147,11 +157,13 @@ prose:
               value: "mixing"
             - name: "Production"
               value: "production"
-      - name: "type"
+            - name: "Mastering"
+              value: "mastering"
+      - name: "audiotype"
         field:
           element: "multiselect"
-          label: "Portfolio Type"
-          placeholder: "Choose Portfolio Type"
+          label: "Audio type"
+          placeholder: "Is it an album? Single? What?"
           options:
             - name: "Audio Single"
               value: "single"
