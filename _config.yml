@@ -118,10 +118,10 @@ prose:
           label: "Artist"
           value: ""
       - name: "featured"
-      	field:
-      	  element: "checkbox"
-      	  label: "Featured"
-      	  value: false
+        field:
+          element: "checkbox"
+          label: "Featured"
+          value: false
       - name: "category"
         field:
           element: "hidden"
