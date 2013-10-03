@@ -116,6 +116,7 @@ html, body {
 }
 
 html {
+
 	background: url('../images/audio-board-3-sm.jpg') no-repeat fixed 50% 50% $black;
 	@include background-size(cover);
 
@@ -137,7 +138,10 @@ html {
 	}
 
 }	
+html.splash.js {
+	background-image: none !important;
 
+}
 body {
 	@include bodyFont;
 	background: url('../images/overlay-black-2.png') repeat fixed 0 0 transparent;

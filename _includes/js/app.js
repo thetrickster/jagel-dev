@@ -35,7 +35,7 @@
   $('.block-grid.five-up>li:nth-child(5n+1)').css({clear: 'both'});
 
   // fitVids
-  $(".fitVids").fitVids();
+  $(".fitVids, .article").fitVids();
 
   // Hide address bar on mobile devices (except if #hash present, so we don't mess up deep linking).
   if (Modernizr.touch && !window.location.hash) {

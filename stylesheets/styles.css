@@ -1424,6 +1424,8 @@ html { background: url("../images/audio-board-3-sm.jpg") no-repeat fixed 50% 50%
 @media screen and (min-width: 481px) { html { background-image: url("../images/audio-board-3-md.jpg"); } }
 @media screen and (min-width: 1025px) { html { background-image: url("../images/audio-board-3.jpg"); } }
 
+html.splash.js { background-image: none !important; }
+
 body { font-family: "Roboto", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans; background: url("../images/overlay-black-2.png") repeat fixed 0 0 transparent; padding: 20px; height: auto; max-height: inherit; }
 
 h1, h2, h3 { font-family: "Roboto Condensed", "Helvetica Neue", "HelveticaNeue", Arial, Helvetica, sans-serif, sans; }
