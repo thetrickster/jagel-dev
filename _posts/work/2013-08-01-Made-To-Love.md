@@ -4,8 +4,10 @@ category: work
 published: true
 title: Made To Love
 splash: "http://placehold.it/1600x500"
-permalink: /work/made-to-love/
+permalink: "/work/made-to-love/"
 ---
+
+![bg-4.jpg](/media/bg-4.jpg)
 
 Check out John Legend's "Made to Love", recorded and mixed by Jason Agel.  From the forthcoming album, <a href="//www.johnlegend.com" target="_blank">"Love in the Future"</a>.
 
