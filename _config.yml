@@ -110,7 +110,7 @@ prose:
               value: "apples"
             - name: "Bananas"
               value: "bananas"
-      - name: "published"
+      - name: "publish"
         field:
           element: "checkbox"
           label: "Published"
@@ -144,7 +144,7 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
-          placeholder: /:categories/:title/
+          placeholder: "URL for this item"
       - name: "Contributions"
         field:
           element: "multiselect"
@@ -176,7 +176,7 @@ prose:
           element: "text"
           label: "Splash image"
           value: ""
-      - name: "published"
+      - name: "publish"
         field:
           element: "checkbox"
           label: "Published"
@@ -201,7 +201,7 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
-      - name: "published"
+      - name: "publish"
         field:
           element: "checkbox"
           label: "Published"
