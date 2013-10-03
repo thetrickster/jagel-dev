@@ -112,6 +112,11 @@ prose:
             - name: "Bananas"
               value: "bananas"
     _posts/work:
+      - name: "artist"
+        field:
+          element: "text"
+          label: "Artist"
+          value: ""
       - name: "category"
         field:
           element: "hidden"
