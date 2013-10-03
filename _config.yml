@@ -6,7 +6,6 @@ author:
   - email: "info@jasonagel.com"
 
 baseurl: "http://jasonagel.chrismatthias.com"
-permalink: pretty
 markdown: rdiscount
 relative_permalinks: true
 permalink:   /:categories/:title/
@@ -111,6 +110,11 @@ prose:
               value: "apples"
             - name: "Bananas"
               value: "bananas"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
     _posts/work:
       - name: "artist"
         field:
@@ -140,7 +144,7 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
-          placeholder: "/work/your-post-name"
+          placeholder: /:categories/:title/
       - name: "Contributions"
         field:
           element: "multiselect"
@@ -197,3 +201,8 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false         

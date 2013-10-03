@@ -6,7 +6,7 @@ section: work
 <article class='article single'>
   <header>
     <h1 class="heading>">{{page.title}}</h1>
-    <h3>by {{ page.artist }}</h3>
+    {% if page.artist %}<h3>by {{ page.artist }}</h3>{% endif %}
     <span class='date'>{{page.date | date:"%b %d"}}</span>
   </header>
 
