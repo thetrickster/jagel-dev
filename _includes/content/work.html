@@ -1,4 +1,5 @@
 {% for item in site.categories.work limit:1000 %}
+{% if item.published %}
 {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
 	{% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 	{% if item.splash %}
@@ -15,4 +16,5 @@
 	<h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
 	{% endif %}
 	<a class='item' href='{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}</span></a>
+{% endif %}
 {% endfor %}
