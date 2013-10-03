@@ -117,6 +117,11 @@ prose:
           element: "text"
           label: "Artist"
           value: ""
+      - name: "featured"
+      	field:
+      	  element: "checkbox"
+      	  label: "Featured"
+      	  value: false
       - name: "category"
         field:
           element: "hidden"
