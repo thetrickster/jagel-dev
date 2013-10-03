@@ -140,7 +140,7 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
-          placeholder: "/work/"
+          placeholder: "/work/your-post-name"
       - name: "Contributions"
         field:
           element: "multiselect"
@@ -172,6 +172,11 @@ prose:
           element: "text"
           label: "Splash image"
           value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
       - name: "featured"
         field:
           element: "checkbox"
