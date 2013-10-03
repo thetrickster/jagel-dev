@@ -147,10 +147,6 @@ prose:
               value: "mixing"
             - name: "Production"
               value: "production"
-      - name: "featured"
-        field:
-          element: "button"
-          label: "Featured"
     _posts/pages:
       - name: "layout"
         field:
