@@ -140,7 +140,7 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
-          placeholder: "/work/{{ page.slug | downcase }}"
+          placeholder: "/work/"
       - name: "Contributions"
         field:
           element: "multiselect"
