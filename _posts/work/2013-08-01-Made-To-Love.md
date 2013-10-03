@@ -3,7 +3,7 @@ layout: work
 category: work
 published: true
 title: Made To Love
-splash: "/media/made-to-love.jpg"
+splash: "/media/made-to-love-large.jpg"
 permalink: "/work/made-to-love/"
 tags: 
   - recording
