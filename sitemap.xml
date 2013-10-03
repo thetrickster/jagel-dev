@@ -1,0 +1,33 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for page in site.pages %}
+    {% if page.title and page.published %}
+      <url>
+        <loc>{{ site.baseurl }}{{ page.url }}</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+      </url>
+    {% endif %}
+  {% endfor %}
+
+  {% for post in site.categories.work %}
+    <url>
+      <loc>{{site.baseurl}}{{ post.url }}</loc>
+      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  {% endfor %}
+
+  {% for post in site.categories.blog %}
+    <url>
+      <loc>{{site.baseurl}}{{ post.url }}</loc>
+      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  {% endfor %}
+</urlset>

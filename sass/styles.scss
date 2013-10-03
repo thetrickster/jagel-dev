@@ -262,12 +262,36 @@ hr {
 		padding-left: 10px;
 	}
 
+
 	@media screen and (max-width: 767px) {
 		.heading { font-size: initial; }
 
 	}	
 
 
+}
+.splash {
+	position: relative;
+	margin-bottom: 1.5em;
+
+	.item & {
+		.heading {
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			padding: 1em;
+			background: rgba(0,0,0,0.5);
+
+		}
+		a {
+			display: block;
+
+		}
+		
+	}
 }
 
 // #overlay {

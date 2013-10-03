@@ -1,0 +1,24 @@
+{% for item in site.categories.work limit:1000 %}
+<article class='item'>
+{% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+
+	{% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+	{% if item.splash %}
+	  {% if item.splash contains 'http' %}
+	    {% capture url %}{{item.splash}}{% endcapture %}
+	  {% else %}
+	    {% capture url %}{{item.baseurl}}{{item.splash}}{% endcapture %}
+	  {% endif %}
+	  <header class="splash">
+		<a href='{{item.url}}'>
+			<h3 class="heading">{{item.title}}</h3>
+		    <img src='{{url}}' alt='' />
+		</a>
+	  </header>
+	{% else %}
+		<h3 class="heading"><a href='{{item.url}}'>{{item.title}}</a></h3>
+
+	{% endif %}
+
+</article>
+{% endfor %}
