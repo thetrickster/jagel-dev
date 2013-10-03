@@ -140,11 +140,7 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
-      - name: "splash"
-        field:
-          element: "text"
-          label: "Splash image"
-          value: ""
+          placeholder: "URL for this: '/work/...'"
       - name: "Contributions"
         field:
           element: "multiselect"
@@ -171,6 +167,11 @@ prose:
               value: "album"
             - name: "Collaboration"
               value: "collaboration"
+      - name: "splash"
+        field:
+          element: "text"
+          label: "Splash image"
+          value: ""
       - name: "featured"
         field:
           element: "checkbox"
