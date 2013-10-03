@@ -151,8 +151,8 @@ prose:
         field:
           element: "button"
           label: "Featured"
-          on: true
-          off: false
+          on: "Yes"
+          off: "No"
     _posts/pages:
       - name: "layout"
         field:
