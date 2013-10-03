@@ -1,6 +1,9 @@
 ---
 layout: work
 category: work
+published: false
+title: New Project
+featured: false
 ---
 
 ## A New Post

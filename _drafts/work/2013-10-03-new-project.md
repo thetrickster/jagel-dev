@@ -1,8 +1,9 @@
 ---
-layout: blog
-category: blog
+layout: work
+category: work
 published: false
 title: ""
+featured: false
 ---
 
 ## A New Post
