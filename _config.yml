@@ -110,11 +110,6 @@ prose:
               value: "apples"
             - name: "Bananas"
               value: "bananas"
-      - name: "publish"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: false
     _posts/work:
       - name: "artist"
         field:
@@ -176,11 +171,6 @@ prose:
           element: "text"
           label: "Splash image"
           value: ""
-      - name: "publish"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: false
       - name: "featured"
         field:
           element: "checkbox"
@@ -201,8 +191,3 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
-      - name: "publish"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: false         
