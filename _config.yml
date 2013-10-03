@@ -147,6 +147,18 @@ prose:
               value: "mixing"
             - name: "Production"
               value: "production"
+      - name: "type"
+        field:
+          element: "multiselect"
+          label: "Portfolio Type"
+          placeholder: "Choose Portfolio Type"
+          options:
+            - name: "Audio Single"
+              value: "single"
+            - name: "Album"
+              value: "album"
+            - name: "Collaboration"
+              value: "collaboration"
       - name: "featured"
         field:
           element: "checkbox"
