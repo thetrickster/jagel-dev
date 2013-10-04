@@ -9,7 +9,8 @@ tags:
 artist: John Legend
 featured: false
 permalink: "/made-to-love/"
-soundcloudwidget: null
+soundcloudwidget: "https://soundcloud.com/johnlegend/madetolove"
+album: ""
 ---
 
 Check out John Legend's "Made to Love", recorded and mixed by Jason Agel.  From the forthcoming album, <a href="//www.johnlegend.com" target="_blank">"Love in the Future"</a>.
