@@ -51,6 +51,12 @@
         {% if page.splash %}
           $.backstretch("{{ page.splash }}");
         {% endif %}
+
+        {% if page.soundcloudwidget %}
+          SC.initialize({
+            client_id: 'f735366b4a010224b2ab9d95634e94c1'
+          });
+        {% endif %}
       })(jQuery);
     </script>
 
