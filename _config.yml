@@ -7,6 +7,11 @@ author:
 
 baseurl: "http://jasonagel.chrismatthias.com"
 markdown: rdiscount
+rdiscount:
+  extensions:
+    - autolink
+    - footnotes
+    - smart
 relative_permalinks: true
 permalink:   /:categories/:title/
 source:      .
@@ -123,10 +128,10 @@ prose:
           value: ""
       - name: "soundcloudwidget"
         field:
-          element: "textarea"
-          label: "Soundcloud Embed URL"
+          element: "text"
+          label: "Soundcloud URL"
           value: ""
-          placeholder: "The URL in the wordpress shortcode option"
+          placeholder: "Soundcloud URL (https://soundcloud.com/XXXX)"
       - name: "mp3file"
         field:
           element: "text"

@@ -1,4 +1,5 @@
 {% for item in site.categories.work limit:1000 %}
+{% if item.published %}
 <article class='item'>
 {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
 
@@ -11,7 +12,7 @@
 	  {% endif %}
 	  <header class="splash">
 		<a href='{{item.url}}'>
-			<h3 class="heading">{{item.title}}</h3>
+			<h3 class="heading">{{item.title}}{% if item.artist %} <small>by {{ item.artist }}</small>{% endif %}</h3>
 		    <img src='{{url}}' alt='' />
 		</a>
 	  </header>
@@ -21,4 +22,5 @@
 	{% endif %}
 
 </article>
+{% endif %}
 {% endfor %}
