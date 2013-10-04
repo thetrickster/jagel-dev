@@ -9,7 +9,7 @@ tags:
 artist: John Legend
 featured: false
 permalink: "/made-to-love/"
-soundcloudwidget: null
+soundcloudwidget: "https://soundcloud.com/johnlegend/madetolove"
 album: ""
 ---
 
