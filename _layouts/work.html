@@ -2,26 +2,16 @@
 layout: default
 section: work
 ---
-
+{% capture pageslug %}{{ page.title | replace: ' ','' | downcase }}{% endcapture %}
 <article class='article single'>
   <header>
-    <h1 class="heading>">{{page.title}}</h1>
-    {% if page.artist %}<h3>by {{ page.artist }}</h3>{% endif %}
+    <h1 class="heading>">{{page.title}}</h1> 
+
+    {% if page.artist and page.artist != "" %}<h3>by {{ page.artist }}</h3>{% endif %}
     <span class='date'>{{page.date | date:"%b %d"}}</span>
 
-    {% if page.soundcloudwidget %}
-    <script src="http://connect.soundcloud.com/sdk.js"></script>
-    <script>
-      SC.initialize({
-        client_id: 'f735366b4a010224b2ab9d95634e94c1'
-      });
+    {% include _soundcloud.html %}
 
-      var track_url = "{{ page.soundcloudwidget }}";
-      SC.oEmbed(track_url, { auto_play: true }, function(oEmbed) {
-        console.log('oEmbed response: ' + oEmbed);
-      });
-    </script>
-    {% endif %}
   </header>
 
   <div class='prose'>

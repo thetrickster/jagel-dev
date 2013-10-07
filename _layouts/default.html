@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9{% if page.splash %} splash{% endif %}" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js{% if page.splash %} splash{% endif %}" lang="en"> 
 <!--<![endif]-->
 
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.description }}"/>
-    <link rel="stylesheet" href="{{site.baseurl}}/stylesheets/styles.css?v={{ site.cacheVersion }}">
+    <link rel="stylesheet" href="/stylesheets/styles.css?v={{ site.cacheVersion }}">
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,700italic,300,700|Roboto:700,700italic,400,400italic' rel='stylesheet' type='text/css'>
     <link rel='alternate' type='application/rss+xml' title='RSS' href='{{site.baseurl}}/blog.rss' />
     <meta name="google-site-verification" content="Op2aaQ5ndfrHJ0uIIvnftPQaAuYlCyswm5SfyReeqtM" />
@@ -20,7 +20,8 @@
       <link rel="stylesheet" href="{{site.baseurl}}/fonts/general_foundicons_ie7.css"/>
       <link rel="stylesheet" href="{{site.baseurl}}/fonts/social_foundicons_ie7.css"/>
     <![endif]-->
-  </head>
+    <script src="/javascripts/top_scripts.js?v={{ site.cacheVersion }}"></script>
+   </head>
   <body>
 
 
@@ -44,8 +45,8 @@
       var s = document.getElementsByTagName('script')[0];
       s.parentNode.insertBefore(ga, s);
       })();
-    </script>   
-    <script src="{{site.baseurl}}/javascripts/app.js?v={{ site.cacheVersion }}"></script>
+    </script>
+    <script src="/javascripts/app.js?v={{ site.cacheVersion }}"></script>
     <script>
       (function($){
         {% if page.splash %}
