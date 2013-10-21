@@ -57,6 +57,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  liquid
   mini_magick
   rdiscount
   redcarpet
