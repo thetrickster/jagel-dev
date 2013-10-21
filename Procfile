@@ -1,1 +1,1 @@
-web: bundle exec jekyll serve --port 80
+web: bundle exec jekyll serve
