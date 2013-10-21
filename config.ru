@@ -1,6 +1,4 @@
-use Rack::TryStatic, 
-    :root => "_site",
-    :urls => %w[/],
-    :try => ['index.html', '/index.html']
-    
-run Rack::NotFound.new('_site/404.html')
+require "bundler/setup"
+Bundler.require(:default)
+
+run Rack::Jekyll.new(:destination => '_site')
