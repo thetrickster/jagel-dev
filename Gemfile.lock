@@ -25,6 +25,7 @@ GEM
       pygments.rb (~> 0.5.0)
       redcarpet (~> 2.3.0)
       safe_yaml (~> 0.7.0)
+    kgio (2.8.1)
     liquid (2.5.3)
     maruku (0.7.0)
     mini_magick (3.6.0)
@@ -37,6 +38,10 @@ GEM
     pygments.rb (0.5.2)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    rack (1.5.2)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+    raindrops (0.12.0)
     rake (10.1.0)
     rdiscount (2.1.7)
     redcarpet (2.3.0)
@@ -45,6 +50,10 @@ GEM
     sassy-math (1.5)
       compass (~> 0.11)
     subexec (0.2.3)
+    unicorn (4.6.3)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
     yajl-ruby (1.1.0)
     zurb-foundation (3.2.5)
       compass (>= 0.12.2)
@@ -59,6 +68,8 @@ DEPENDENCIES
   jekyll
   liquid
   mini_magick
+  rack-contrib
   rdiscount
   redcarpet
+  unicorn
   zurb-foundation (~> 3.2.5)
