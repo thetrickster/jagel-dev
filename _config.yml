@@ -15,7 +15,7 @@ source:      .
 destination: ./_site
 layouts:     ./_layouts
 include:     []
-exclude:     ['.bundle', 'sass', 'CNAME', 'Gemfile', 'Gemfile.lock', 'Procfile', 'config.rb', '_config.yml', 'README.md']
+exclude:     ['Procfile.local', 'vendor', '.bundle', 'sass', 'CNAME', 'Gemfile', 'Gemfile.lock', 'Procfile', 'config.rb', '_config.yml', 'README.md']
 keep_files:  ['.git']
 timezone:    nil
 encoding:    nil
