@@ -1,12 +1,3 @@
-GIT
-  remote: git://github.com/adaoraul/rack-jekyll.git
-  revision: 6a4b832c5b2350c8c1263b534ebf02135deb6363
-  ref: 6a4b832c5b2350c8c1263b534ebf02135deb6363
-  specs:
-    rack-jekyll (0.4.0)
-      jekyll (>= 0.12.0, < 2.0)
-      rack (~> 1.5.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -24,19 +15,16 @@ GEM
     fast-stemmer (1.0.2)
     fssm (0.2.10)
     highline (1.6.20)
-    jekyll (1.1.2)
+    jekyll (1.2.1)
       classifier (~> 1.3)
       colorator (~> 0.1)
       commander (~> 4.1.3)
       directory_watcher (~> 1.4.1)
-      kramdown (~> 1.0.2)
-      liquid (~> 2.5.1)
+      liquid (~> 2.5.2)
       maruku (~> 0.5)
       pygments.rb (~> 0.5.0)
-      redcarpet (~> 2.2.2)
+      redcarpet (~> 2.3.0)
       safe_yaml (~> 0.7.0)
-    kgio (2.8.1)
-    kramdown (1.0.2)
     liquid (2.5.3)
     maruku (0.7.0)
     mini_magick (3.6.0)
@@ -49,20 +37,14 @@ GEM
     pygments.rb (0.5.2)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
-    rack (1.5.2)
-    raindrops (0.12.0)
     rake (10.1.0)
     rdiscount (2.1.7)
-    redcarpet (2.2.2)
+    redcarpet (2.3.0)
     safe_yaml (0.7.1)
     sass (3.2.12)
     sassy-math (1.5)
       compass (~> 0.11)
     subexec (0.2.3)
-    unicorn (4.6.3)
-      kgio (~> 2.6)
-      rack
-      raindrops (~> 0.7)
     yajl-ruby (1.1.0)
     zurb-foundation (3.2.5)
       compass (>= 0.12.2)
@@ -74,11 +56,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 1.1.2)
+  jekyll
   liquid
   mini_magick
-  rack-jekyll!
   rdiscount
   redcarpet
-  unicorn
   zurb-foundation (~> 3.2.5)
