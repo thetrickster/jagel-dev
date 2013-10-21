@@ -34,6 +34,10 @@
   // fitVids
   $(".fitVids, .article").fitVids();
 
+  // Twitter Fetcher
+  twitterFetcher.fetch('387313738862186496', 'tweets', 4, true, true, true, 'default', false); 
+
+
   // Hide address bar on mobile devices (except if #hash present, so we don't mess up deep linking).
   if (Modernizr.touch && !window.location.hash) {
     $(window).load(function () {

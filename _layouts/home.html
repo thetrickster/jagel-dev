@@ -1,17 +1,30 @@
 ---
 layout: default
 ---
-    <section id=intro class="init fitVids">
+<header id="hero" class="hero">
+  <hgroup>
+    <h1 class="heading">Jason Agel</h1>
+    <h2 class="subheading">Mixing & Recording Engineer | Music Producer</h2>
+  </hgroup>
+
+</header>
+<section id="main" role="main" class="content">
+  <!--div class="four columns fitVids">
+    <div id="intro" class="init">
       <header>
         <figure class="circle-photo">
           <img src="/images/jay-photo.jpg" alt="Jason Agel - Mix Engineer, Audio Engineer" />
         </figure>
-        <hgroup>
-          <h1 class="heading">Jason Agel</h1>
-          <h2 class="subheading">Mixing & Recording Engineer | Music Producer</h2>
-        </hgroup>
       </header>
+    </div>
+    <div class="panel">
+      {% include content/nav-buttons.html %}
+    </div>
+  </div-->
+  <div class="row">
+    <div class="twelve columns fitVids">
+        {{ content }}
 
-      {{ content }}
-
-    </section>
+    </div>
+  </div>
+</section>

@@ -3,18 +3,20 @@ layout: default
 section: work
 ---
 {% capture pageslug %}{{ page.title | replace: ' ','' | downcase }}{% endcapture %}
-<article class='article single'>
-  <header>
-    <h1 class="heading>">{{page.title}}</h1> 
+<section class="row">
+  <article class='article single columns twelve'>
+    <header>
+      <h1 class="heading>">{{page.title}}</h1> 
 
-    {% if page.artist and page.artist != "" %}<h3>by {{ page.artist }}</h3>{% endif %}
-    <span class='date'>{{page.date | date:"%b %d"}}</span>
+      {% if page.artist and page.artist != "" %}<h3>by {{ page.artist }}</h3>{% endif %}
+      <span class='date'>{{page.date | date:"%b %d"}}</span>
 
-    {% include _soundcloud.html %}
+      {% include _soundcloud.html %}
 
-  </header>
+    </header>
 
-  <div class='prose'>
-    {{content}}
-  </div>
-</article>
+    <div class='prose'>
+      {{content}}
+    </div>
+  </article>
+</section>
