@@ -27,8 +27,6 @@ GEM
       safe_yaml (~> 0.7.0)
     liquid (2.5.3)
     maruku (0.7.0)
-    mini_magick (3.6.0)
-      subexec (~> 0.2.1)
     modular-scale (1.0.6)
       compass (>= 0.12.1)
       sass (>= 3.2.0)
@@ -44,7 +42,6 @@ GEM
     sass (3.2.12)
     sassy-math (1.5)
       compass (~> 0.11)
-    subexec (0.2.3)
     yajl-ruby (1.1.0)
     zurb-foundation (3.2.5)
       compass (>= 0.12.2)
@@ -57,8 +54,5 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  liquid
-  mini_magick
   rdiscount
-  redcarpet
   zurb-foundation (~> 3.2.5)
