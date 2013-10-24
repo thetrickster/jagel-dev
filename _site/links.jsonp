@@ -11,13 +11,18 @@ callback([
   } ,
 
   {
-    "text": "Hello, Kittens!",
+    "text": "Hello, Kittens, Hello!",
     "href": "//blog/hello-world/"
   } ,
 
   {
     "text": "Contact",
     "href": "//contact/"
+  } ,
+
+  {
+    "text": "My post in Prose",
+    "href": "//blog/my-post-in-prose/"
   } 
 
 ])

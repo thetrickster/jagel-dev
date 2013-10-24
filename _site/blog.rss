@@ -6,7 +6,22 @@
   <description></description>
   <language>en</language>
   <item>
-  <title>Hello, Kittens!</title>
+  <title>My post in Prose</title>
+  <link>//blog/my-post-in-prose/</link>
+  <description>&lt;h2&gt;A New Post added in Prose&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
+
+</description>
+  <pubDate>2013-10-23T00:00:00+00:00</pubDate>
+  <dc:creator>Jason Agel</dc:creator>
+  <guid isPermaLink="true">//blog/my-post-in-prose/</guid>
+</item>
+<item>
+  <title>Hello, Kittens, Hello!</title>
   <link>//blog/hello-world/</link>
   <description>&lt;p&gt;&lt;img src=&quot;/media/400.jpg&quot; alt=&quot;400.jpg&quot; /&gt;&lt;/p&gt;
 
