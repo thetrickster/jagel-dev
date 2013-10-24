@@ -1,1 +1,1 @@
-web: bundle exec jekyll serve
+web: bundle exec thin -R config.ru start -p $PORT -e $RACK_ENV
