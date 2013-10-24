@@ -90,7 +90,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-script
   compass
-  jekyll
+  jekyll (~> 1.2.1)
   jekyll-assets
   mini_magick
   rdiscount
