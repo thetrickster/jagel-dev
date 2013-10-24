@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<rss version='2.0' xml:base='/work.rss' xmlns:dc='http://purl.org/dc/elements/1.1/'>
+<channel>
+  <title> - Work</title>
+  <link>/</link>
+  <description></description>
+  <language>en</language>
+  <item>
+  <title>Made To Love</title>
+  <link>//work/made-to-love/</link>
+  <description>&lt;p&gt;Check out John Legend&amp;rsquo;s &amp;ldquo;Made to Love&amp;rdquo;, recorded and mixed by Jason Agel.  From the forthcoming album, &lt;a href=&quot;//www.johnlegend.com&quot; target=&quot;_blank&quot;&gt;&amp;ldquo;Love in the Future&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube-nocookie.com/embed/nRpjsFcb2uo?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+</description>
+  <pubDate>2013-08-01T00:00:00+00:00</pubDate>
+  <dc:creator>Jason Agel</dc:creator>
+  <guid isPermaLink="true">//work/made-to-love/</guid>
+</item>
+
+</channel>
+</rss>
