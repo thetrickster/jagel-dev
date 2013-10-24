@@ -2,7 +2,7 @@
 layout: blog
 category: blog
 published: false
-title: New post from Prose.io
+title: Test Draft
 ---
 
 ## A New Post
