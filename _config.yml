@@ -20,6 +20,11 @@ keep_files:  ['.git']
 timezone:    nil
 encoding:    nil
 
+assets:
+  compress:
+    js:   uglifier
+    css:  sass
+
 future:      true
 show_drafts: true
 limit_posts: 20
