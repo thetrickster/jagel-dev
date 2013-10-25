@@ -1,3 +1,2 @@
-jekyll:  bundle exec jekyll build -w
+jekyll:  bundle exec jekyll serve -w --drafts -p 4000
 compass: bundle exec compass watch
-web: bundle exec thin -R config.ru start -p 1111 -e production

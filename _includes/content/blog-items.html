@@ -1,5 +1,8 @@
 {% for item in site.categories.blog limit:40 %}
+	{% if item.published %}
 
 	<a href="{{site.baseurl}}{{item.url}}"><h3>{{item.title | xml_escape}}</h3></a>
 	{{item.content | markdownify}}
+
+	{% endif %}
 {% endfor %}
