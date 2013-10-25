@@ -7,6 +7,8 @@ author:
 
 baseurl: ""
 markdown: rdiscount
+rdiscount:
+  extensions: [smart]
 relative_permalinks: true
 permalink:   /:categories/:title/
 source:      .
