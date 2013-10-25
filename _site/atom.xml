@@ -3,7 +3,7 @@
  
  <title></title>
  <link href="//atom.xml" rel="self"/>
- <updated>2013-10-24T02:02:41+00:00</updated>
+ <updated>2013-10-25T01:47:02+00:00</updated>
  <id>//</id>
  <author>
    <name></name>
@@ -12,13 +12,43 @@
  
  
  <entry>
-   <title>My post in Prose</title>
-   <link href="///blog/my-post-in-prose/"/>
-   <updated>2013-10-23T00:00:00+00:00</updated>
-   <id>///blog/my-post-in-prose</id>
-   <content type="html">&lt;h2&gt;A New Post added in Prose&lt;/h2&gt;
+   <title>Test Draft</title>
+   <link href="///blog/2013-10-23-test-draft/"/>
+   <updated>2013-10-25T01:44:15+00:00</updated>
+   <id>///blog/2013-10-23-test-draft</id>
+   <content type="html">&lt;h2&gt;A New Post&lt;/h2&gt;
 
 &lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title></title>
+   <link href="///blog/test-draft/"/>
+   <updated>2013-10-23T00:00:00+00:00</updated>
+   <id>///blog/test-draft</id>
+   <content type="html">&lt;h2&gt;A New Post&lt;/h2&gt;
+
+&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Late Night Post</title>
+   <link href="///blog/late-night-post/"/>
+   <updated>2013-10-23T00:00:00+00:00</updated>
+   <id>///blog/late-night-post</id>
+   <content type="html">&lt;h2&gt;A New Post&lt;/h2&gt;
+
+&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
+
+&lt;p&gt;This is a paragraph I just added.&lt;/p&gt;
+
+&lt;p&gt;And how about another one?&lt;/p&gt;
+
+&lt;p&gt;Only one more test to go...&lt;/p&gt;
+
+&lt;p&gt;One last paragraph to add&lt;/p&gt;
 </content>
  </entry>
  

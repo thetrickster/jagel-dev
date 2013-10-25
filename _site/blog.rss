@@ -6,9 +6,24 @@
   <description></description>
   <language>en</language>
   <item>
-  <title>My post in Prose</title>
-  <link>//blog/my-post-in-prose/</link>
-  <description>&lt;h2&gt;A New Post added in Prose&lt;/h2&gt;
+  <title>Test Draft</title>
+  <link>//blog/2013-10-23-test-draft/</link>
+  <description>&lt;h2&gt;A New Post&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
+
+</description>
+  <pubDate>2013-10-25T01:44:15+00:00</pubDate>
+  <dc:creator>Jason Agel</dc:creator>
+  <guid isPermaLink="true">//blog/2013-10-23-test-draft/</guid>
+</item>
+<item>
+  <title></title>
+  <link>//blog/test-draft/</link>
+  <description>&lt;h2&gt;A New Post&lt;/h2&gt;
 
 
 
@@ -18,7 +33,42 @@
 </description>
   <pubDate>2013-10-23T00:00:00+00:00</pubDate>
   <dc:creator>Jason Agel</dc:creator>
-  <guid isPermaLink="true">//blog/my-post-in-prose/</guid>
+  <guid isPermaLink="true">//blog/test-draft/</guid>
+</item>
+<item>
+  <title>Late Night Post</title>
+  <link>//blog/late-night-post/</link>
+  <description>&lt;h2&gt;A New Post&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;This is a paragraph I just added.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;And how about another one?&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Only one more test to go...&lt;/p&gt;
+
+
+
+
+&lt;p&gt;One last paragraph to add&lt;/p&gt;
+
+</description>
+  <pubDate>2013-10-23T00:00:00+00:00</pubDate>
+  <dc:creator>Jason Agel</dc:creator>
+  <guid isPermaLink="true">//blog/late-night-post/</guid>
 </item>
 <item>
   <title>Hello, Kittens, Hello!</title>
