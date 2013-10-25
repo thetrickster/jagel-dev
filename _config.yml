@@ -5,7 +5,7 @@ author:
   - name: "Jason Agel"
   - email: "info@jasonagel.com"
 
-baseurl: "/"
+baseurl: ""
 markdown: rdiscount
 relative_permalinks: true
 permalink:   /:categories/:title/
