@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title></title>
+ <link href="/atom.xml" rel="self"/>
+ <updated>2013-10-25T06:54:44+00:00</updated>
+ <id>/</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+ 
+ 
+ <entry>
+   <title>Hello, Kittens!</title>
+   <link href="//blog/hello-world/"/>
+   <updated>2013-10-01T00:00:00+00:00</updated>
+   <id>//blog/hello-world</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/media/400.jpg&quot; alt=&quot;400.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Proin at eros non eros adipiscing mollis. Donec semper turpis sed diam. Sed consequat ligula nec tortor. Integer eget sem. Ut vitae enim eu est vehicula gravida. Morbi ipsum ipsum, porta nec, tempor id, auctor vitae, purus. Pellentesque neque. Nulla luctus erat vitae libero. Integer nec enim. Phasellus aliquam enim et tortor. Quisque aliquet, quam elementum condimentum feugiat, tellus odio consectetuer wisi, vel nonummy sem neque in elit. Curabitur eleifend wisi iaculis ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non velit non ligula laoreet ultrices. Praesent ultricies facilisis nisl. Vivamus luctus elit sit amet mi. Phasellus pellentesque, erat eget elementum volutpat, dolor nisl porta neque, vitae sodales ipsum nibh in ligula. Maecenas mattis pulvinar diam. Curabitur sed leo.&lt;/p&gt;
+
+&lt;p&gt;Noo~&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

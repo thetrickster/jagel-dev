@@ -1,0 +1,28 @@
+callback([
+
+  {
+    "text": "About",
+    "href": "/about/"
+  } ,
+
+  {
+    "text": "Work",
+    "href": "/work/"
+  } ,
+
+  {
+    "text": "Made To Love",
+    "href": "/work/made-to-love/"
+  } ,
+
+  {
+    "text": "Hello, Kittens!",
+    "href": "/blog/hello-world/"
+  } ,
+
+  {
+    "text": "Contact",
+    "href": "/contact/"
+  } 
+
+])
